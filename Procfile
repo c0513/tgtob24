@@ -1,1 +1,1 @@
-web: gunicorn server:tgtob24
+web: gunicorn server:app
