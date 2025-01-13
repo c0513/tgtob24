@@ -1,15 +1,8 @@
-from flask import Flask
-
-app = Flask(__name__)
-
-@app.route('/')
-def home():
-    return "Hello, World!"
-
-import re
 from flask import Flask, request, jsonify
+import re
 import requests
 
+# Создаём экземпляр приложения только один раз
 app = Flask(__name__)
 
 # Укажите ваш вебхук из Битрикс24
