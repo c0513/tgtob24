@@ -1,1 +1,1 @@
-web: gunicorn app:app
+web: gunicorn tgtob24:scum
