@@ -3,7 +3,7 @@ import re
 import requests
 
 # Создаём экземпляр приложения только один раз
-app = Flask(__name__)
+app = Flask(tgtob24)
 
 # Укажите ваш вебхук из Битрикс24
 BITRIX24_WEBHOOK_URL = 'https://b24-jxz8u4.bitrix24.ru/rest/1/iqdu9cyh49l0c2xh/crm.lead.add'
